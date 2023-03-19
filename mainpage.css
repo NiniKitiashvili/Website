@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1;
 }
 
-.about-us__photo__image {
+.about-us__photo-image {
     width: 90%;
     max-width: 100%;
     max-height: 100%;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 30px;
 }
 
-.british-tea__icons-part {
+.british-tea__icons span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,11 +280,49 @@ h1, h2, h3, h4, h5, h6 {
     height: 65px;
     border: 1px solid #034823;
     font-weight: 600;
-    background-image: url(images/tea-cup-icon.svg);
     background-repeat: no-repeat;
     background-size: 36px;
-    background-position: 15px 10px;
+    background-position: 15px 10px; 
 }
 
-/* Commercial */
+.british-tea__icons--white {
+    background-image: url(images/tea-cup-icon.svg);
+    background-color: #F4F4F4;
+}
 
+.british-tea__icons--green {
+    background-image: url(images/teaIcongreen.svg);
+}
+
+.british-tea__icons--black {
+    background-image: url(images/teaIconwhite.svg);
+}
+
+/* RECIPES */
+
+.recipes {
+    display: flex;
+    gap: 48px;
+    background-color: #fff;
+    height: 509px;
+    margin: -460px auto 0;
+}
+
+.recipes__box {
+    padding: 60px 0px 60px 66px;
+    flex: 1;
+}
+
+.recipes__image {
+    flex: 1;
+    padding: 60px 66px 60px 0;
+}
+
+.recipes__box-title {
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+.recipes__box-text {
+   padding-bottom: 48px;
+}
