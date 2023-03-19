@@ -28,6 +28,11 @@ html {
     color: #034823;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Mulish;
+    font-weight: 800;
+}
+
 /* Header */
 
 .header-line {
@@ -107,7 +112,6 @@ html {
     background-position: center;
     background-size: cover;
     height: 924px;
- 
 }
 
 .hero .section__content {
@@ -116,7 +120,19 @@ html {
    justify-content: center;
 }
 
+.hero__heading {
+   font-size: 60px;
+   width: 55%;
+   color: #fff;
+}
 
+.hero__cta {
+    background-color: #FFE036;
+    color: #034823;
+    padding: 20px 33px;
+    text-decoration: none;
+    font-weight: 600;
+}
 
 /* Navigation */
 
@@ -156,4 +172,72 @@ html {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 12px 16px 12px 52px;
     color: #fff;
+    font-weight: 500;
+    background-image: url("images/note.svg");
+    background-repeat: no-repeat;
+    background-position: 12px 10px;
+}
+
+/*  Section  About Us*/
+
+.about-us {
+    margin-top: 150px;
+}
+
+.about-us__photo {
+    display: flex;
+    flex: 1;
+}
+
+.about-us__photo__image {
+    width: 90%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-us__info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-us__info-title {
+    margin-bottom: 20px;
+}
+
+/* Container 35 */
+
+.container {
+    display: flex;
+    margin-top: 38px;
+    gap: 40px;
+}
+
+.container__part {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 200px;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+.container__part-number {
+    height: 60px;
+    width: 90px;
+    padding-left: 42px;
+    padding-top: 35px;
+   
+} 
+.container__part-text {
+    padding-left: 34px ;
+}
+
+.container__box__list {
+    list-style: none;
+}
+
+.container__box__list-item {
+    padding-bottom: 16px;
+    font-weight: 400;
 }
