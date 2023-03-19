@@ -1,0 +1,159 @@
+/* General Styles */
+
+body {
+  margin: 0;
+}
+
+p { 
+ margin: 0;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section__content {
+    width: 1200px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Typography */
+
+html {
+    font-family: Inter;
+    font-size: 18px;
+    color: #034823;
+}
+
+/* Header */
+
+.header-line {
+    background-color: #FFE036;
+    padding: 19px 0;
+}
+
+.header-line__icons {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.header-line__icons img {
+    width: 18px;
+    height: 18px;
+}
+
+.header-line .section__content {
+    justify-content: space-between;
+}
+
+ .header-logo .section__content {
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.header-logo {
+  padding: 32px 0;
+}
+
+ .header-logo__image {
+  width: 240px;
+ }
+
+/*conatcs */
+
+.contacts {
+    display: flex;
+    gap: 68px;
+}
+.contacts__part {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.part__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.part__icons {
+    width: 68px;
+    height: 68px;
+}
+
+.part__title {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: bold;
+    color:  #A3161F;
+}
+
+/* Nav Section */
+
+.nav-section {
+    position: relative;
+    top: 66px;
+    margin-top: -66px;
+}
+
+/* hero */
+
+.hero {
+    background-image: url(images/teapicking.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 924px;
+ 
+}
+
+.hero .section__content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+
+/* Navigation */
+
+.navigation {
+    background-color: #FFE036;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+.navigation__menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.navigation__menu-item a {
+    text-decoration: none;
+    color: #034823;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navigation__cta {
+    padding: 20px 22px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #A3161F;
+}
+
+/* Icon Label */
+
+.icon-label {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 12px 16px 12px 52px;
+    color: #fff;
+}
