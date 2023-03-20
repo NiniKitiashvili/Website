@@ -227,17 +227,17 @@ h1, h2, h3, h4, h5, h6 {
     width: 90px;
     padding-left: 42px;
     padding-top: 35px;
-   
 } 
+
 .container__part-text {
     padding-left: 34px ;
 }
 
-.container__box__list {
+.container__box-list {
     list-style: none;
 }
 
-.container__box__list-item {
+.container__box-list--item {
     padding-bottom: 16px;
     font-weight: 400;
 }
