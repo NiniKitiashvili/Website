@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: 12px 10px;
 }
 
-/*  Section  About Us*/
+/*  Section  About Us */
 
 .about-us {
     margin-top: 150px;
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 
-.container__box-list--item {
+.container__box-item {
     padding-bottom: 16px;
     font-weight: 400;
 }
@@ -267,12 +267,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-.british-tea__icons {
+.british-tea__icon {
     display: flex;
     gap: 30px;
 }
 
-.british-tea__icons span{
+.british-tea__icon-style {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,16 +285,16 @@ h1, h2, h3, h4, h5, h6 {
     background-position: 15px 10px; 
 }
 
-.british-tea__icons--white {
+.british-tea__icon-style--white {
     background-image: url(images/tea-cup-icon.svg);
     background-color: #F4F4F4;
 }
 
-.british-tea__icons--green {
+.british-tea__icon-style--green {
     background-image: url(images/teaIcongreen.svg);
 }
 
-.british-tea__icons--black {
+.british-tea__icon-style--black {
     background-image: url(images/teaIconwhite.svg);
 }
 
@@ -304,13 +304,13 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     gap: 48px;
     background-color: #fff;
-    height: 509px;
+    height: 549px;
     margin: -460px auto 0;
 }
 
 .recipes__box {
     padding: 60px 0px 60px 66px;
-    flex: 1;
+    flex: 1;  
 }
 
 .recipes__image {
@@ -325,4 +325,103 @@ h1, h2, h3, h4, h5, h6 {
 
 .recipes__box-text {
    padding-bottom: 48px;
+}
+
+/* Section Purpose */
+
+.purpose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F4F4;
+    height: 1329px;
+    display: flex;
+    margin-top: -90px;
+
+}
+
+.purpose__head {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 205px;
+}
+
+.icon-label__purpose-icon {
+    background-color: #fff;
+    color: #034823;
+}
+
+.purpose__title {
+    font-size: 45px;
+    margin: 10 0 18 0;
+}
+
+.purpose__text {
+   width: 687px;
+   text-align: center;
+   font-weight: 400;
+   margin-bottom: 37px;
+}
+
+/* Purpose Boxes */
+
+.purpose-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.purpose-box__style {
+    height: 322px;
+    width: 383px;
+    background-color: #034823;
+    background-repeat: no-repeat;
+    background-position: top 47px left 36px;
+    background-size: 48px;
+}
+
+.purpose-box__style h3 {
+    color: #F9DE4B;
+    font-size: 25px;
+    margin: 0;
+    padding: 115px 36px 11px 36px;
+}
+
+.purpose-box__style p {
+   color: #B0B3BB;
+   padding-left: 36px;
+   padding-bottom: 30px;
+   padding-right: 36px;
+}
+
+.purpose-box__style a{
+    color: #F4F4F4;
+    text-decoration: none;
+    padding-left: 36px;
+}
+
+.purpose-box__style--icon-first {
+  background-image: url(images/icons/first\ icon.png);
+}
+
+.purpose-box__style--icon-second {
+  background-image: url(images/icons/second\ icon.png);
+}
+
+.purpose-box__style--icon-third {
+  background-image: url(images/icons/third\ icon.png);
+}
+
+.purpose-box__style--icon-fourth {
+  background-image: url(images/icons/fourth\ icon.png);
+}
+
+.purpose-box__style--icon-fifth {
+  background-image: url(images/icons/fifth\ icon.png);
+}
+
+.purpose-box__style--icon-sixth {
+  background-image: url(images/icons/sixth\ icon.png);
 }
