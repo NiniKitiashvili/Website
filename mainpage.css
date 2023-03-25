@@ -337,7 +337,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 1329px;
     display: flex;
     margin-top: -90px;
-
 }
 
 .purpose__head {
@@ -382,21 +381,21 @@ h1, h2, h3, h4, h5, h6 {
     background-size: 48px;
 }
 
-.purpose-box__style h3 {
+.purpose-box__title {
     color: #F9DE4B;
     font-size: 25px;
     margin: 0;
     padding: 115px 36px 11px 36px;
 }
 
-.purpose-box__style p {
+.purpose-box__text {
    color: #B0B3BB;
    padding-left: 36px;
    padding-bottom: 30px;
    padding-right: 36px;
 }
 
-.purpose-box__style a{
+.purpose-box__button {
     color: #F4F4F4;
     text-decoration: none;
     padding-left: 36px;
