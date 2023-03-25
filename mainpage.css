@@ -431,6 +431,11 @@ h1, h2, h3, h4, h5, h6 {
 display: flex;
 }
 
+.choose-us__image-frame{
+    display: flex;
+    padding-right: 350px;
+}
+
 .choose-us__image {  
   display: flex;
   justify-content: center;
@@ -520,4 +525,44 @@ display: flex;
 .icon__box-text {
     color: #B0B3BB;
     width: 513px;
+}
+
+/* Section Gallery */
+
+.gallery {
+    background-color: #034823;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__icon {
+    margin-top: 169px;
+    margin-bottom: 9px;
+}
+
+.gallery__name {
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 60px;
+    color: #F4F4F4;
+}
+
+.gallery__photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 169px;
+}
+
+.gallery__photo-box {
+    background-color: #F4F4F4;
+    width: 444px;
+    height: 626px;
 }
