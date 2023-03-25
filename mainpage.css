@@ -452,7 +452,6 @@ display: flex;
     height: 693px;
 }
 
-
 .choose-us__project-box {
     display: flex;
     border: 1px solid #fff;
@@ -474,12 +473,51 @@ display: flex;
     font-size: 25px;
 }
 
+/* Section Choose Us Info */
 
 .choose-us__info {
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    padding-left: 80px;
+}
+
+.choose-us__info-text {
+    margin-bottom: 44px;
+    width: 643px;
+    color: #B0B3BB;
 }
 
 .choose-us__icon {
+    background-color: #F4F4F4;
+    color: #034823;
     width: 200.16px;
+    margin-bottom: 9px;
+}
+
+.choose-us__info-title {
+    margin: 0;
+    font-size: 45px;
+    width: 508px;
+    padding-bottom: 22px;
+}
+
+.choose-us__info-icon {
+    display: flex;
+}
+
+.icon__box {
+ display: flex;
+ flex-direction: column;
+ padding-left: 13px;
+ margin-bottom: 44px;
+}
+
+.icon__box-title {
+    margin: 0 0 5px 0;
+}
+
+.icon__box-text {
+    color: #B0B3BB;
+    width: 513px;
 }
