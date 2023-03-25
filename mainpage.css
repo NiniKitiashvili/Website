@@ -424,3 +424,62 @@ h1, h2, h3, h4, h5, h6 {
 .purpose-box__style--icon-sixth {
   background-image: url(images/icons/sixth\ icon.png);
 }
+
+/* Section Choose-Us */
+
+.choose-us{
+display: flex;
+}
+
+.choose-us__image {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/choose-us-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 845px;
+  height: 921px;
+}
+
+.choose-us__project-blur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(28, 39, 82, 0.7);
+    width: 630px;
+    height: 693px;
+}
+
+
+.choose-us__project-box {
+    display: flex;
+    border: 1px solid #fff;
+}
+
+.choose-us__project-number {
+    font-family: Mulish;
+    font-weight: 800;
+    font-size: 25px;
+    background-color: #FFE036;
+    padding: 17px;
+}
+
+.choose-us__project-text {
+    font-family: Mulish;
+    font-weight: 700;
+    color: #F4F4F4;
+    padding: 15px 55px 15px 15px;
+    font-size: 25px;
+}
+
+
+.choose-us__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-us__icon {
+    width: 200.16px;
+}
