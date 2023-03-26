@@ -757,6 +757,66 @@ display: flex;
     margin-bottom: 150px;
 }
 
-.customer-footer-client-title {
+.customer-footer__client-title {
     padding-left: 20px;
+}
+
+/* Section Pricing */
+
+.pricing {
+    background-color: #F4F4F4;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing__plan {
+    display: flex;
+    gap: 144px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.pricing__plan-part {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.pricing__plan-label {
+    background-color: #A3161F;
+    align-self: center;
+    align-self: flex-start;
+}
+
+.pricing__plan-title {
+    font-size: 45px;
+}
+
+.pricing__plan-text {
+    align-self: center;
+    color: #7E7E7E;
+}
+
+.pricing__box {
+    display: flex;
+    gap: 24px;
+}
+
+.pricing__box-item {
+    background-color: #fff;
+}
+
+/* Pricing Boxes */
+
+.pricing__box-title {
+    display: flex;
+}
+
+.pricing__box-head {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
 }
