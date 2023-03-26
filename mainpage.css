@@ -562,7 +562,24 @@ display: flex;
 }
 
 .gallery__photo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
     background-color: #F4F4F4;
     width: 444px;
     height: 626px;
 }
+
+.gallery__photo-title {
+    margin: 0 0 7px 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.gallery__photo-text {
+    color: #B0B3BB;
+    margin: 0 0 21px 0;
+}
+
+/* Section Customers */
