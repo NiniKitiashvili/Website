@@ -586,7 +586,14 @@ display: flex;
 
 .customer__container {
     display: flex;
+    gap: 30px;
+}
+
+.customer__main {
+    display: flex;
     flex-direction: column;
+    flex: 1;
+
 }
 
 .customer__says {
@@ -595,10 +602,10 @@ display: flex;
 }
 
 .customer__icon-label {
-    margin: 150px 0 15px 0;
+    margin-top: 150px;
     background-color: #A3161F;
     align-self: center;
-    margin-right: 100px;
+    align-self: flex-start;
 }
 
 .customer__says-title {
@@ -688,4 +695,33 @@ display: flex;
 
 .customer__info-icon {
     align-self: center;
+}
+
+/* Customer Form */
+
+.customer__form {
+    background-color: #F4F4F4;
+    padding: 30px 80px;
+    padding-bottom: 25px;
+}
+
+.customer__form-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer__form-text {
+    color: #7E7E7E;
+    padding: 20px 200px 22px 30px;
+    margin: 28px;
+}
+
+.customer__form-text--big {
+  padding-bottom: 96px;
+}
+
+.customer__form-button {
+    padding: 20px 160px;
+    margin: 20px
 }
