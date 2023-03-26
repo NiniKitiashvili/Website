@@ -725,3 +725,38 @@ display: flex;
     padding: 20px 160px;
     margin: 20px
 }
+
+/* Customer footer */
+
+.customer-footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.customer__icon-red {
+    background-color: #A3161F;
+}
+
+.customer-footer__text {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.customer-footer__client {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    color: rgba(28, 39, 82, 0.4);
+}
+
+.customer-footer__client-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.customer-footer-client-title {
+    padding-left: 20px;
+}
